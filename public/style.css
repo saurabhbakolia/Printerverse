@@ -1,0 +1,28 @@
+*{
+    padding:0;
+    box-sizing:border-box;
+    margin:0;
+    /* outline:2px solid red; */
+}
+
+body{
+    width:100vw;
+    height:100vh;
+}
+
+ul li{
+    list-style-type:none;
+}
+
+.text-gray{
+    color:#4b5563;
+}
+.container{
+    width:60%;
+    height:100%;
+}
+
+.header{
+    border-block-end:1px solid black;
+}
+

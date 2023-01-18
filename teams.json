@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "IND",
+        "M": 5,
+        "W": 4,
+        "L": 1,
+        "NRR": "+1.319",
+        "Pts": 8,
+        "logo": "https://catamphetamine.gitlab.io/country-flag-icons/3x2/IN.svg"
+    },
+    {
+        "id": 2,
+        "name": "PAK",
+        "M": 5,
+        "W": 3,
+        "L": 2,
+        "NRR": "+1.028",
+        "Pts": 6,
+        "logo": "https://catamphetamine.gitlab.io/country-flag-icons/3x2/PK.svg"
+    },
+    {
+        "id": 3,
+        "name": "SA",
+        "M": 5,
+        "W": 2,
+        "L": 2,
+        "NRR": "+0.874",
+        "Pts": 5,
+        "logo": "https://catamphetamine.gitlab.io/country-flag-icons/3x2/SA.svg"
+    },
+    {
+        "id": 4,
+        "name": "NED",
+        "M": 5,
+        "W": 2,
+        "L": 3,
+        "NRR": "-0.849",
+        "Pts": 4,
+        "logo": "https://catamphetamine.gitlab.io/country-flag-icons/3x2/NL.svg"
+    },
+    {
+        "id": 5,
+        "name": "BAN",
+        "M": 5,
+        "W": 2,
+        "L": 3,
+        "NRR": "-1.176",
+        "Pts": 4,
+        "logo": "https://catamphetamine.gitlab.io/country-flag-icons/3x2/BD.svg"
+    },
+    {
+        "id": 6,
+        "name": "ZIM",
+        "M": 5,
+        "W": 1,
+        "L": 3,
+        "NRR": "-1.138",
+        "Pts": 3,
+        "logo": "https://catamphetamine.gitlab.io/country-flag-icons/3x2/ZW.svg"
+    }
+]
