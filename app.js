@@ -1,12 +1,16 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-const { EventEmitter } = require("events");
 const port = 3000;
+const { EventEmitter } = require("events");
 
 var json_data = require('./teams.json');
 
-function sortTeam(team) {
+// Initializing event emitter
+var eventEmitter = new EventEmitter();
+
+// Registering to myEvent
+eventEmitter.on('myEvent', function () {
     json_data.sort((a, b) => {
         if (a.Pts === b.Pts) {
             return b.NRR - a.NRR;
@@ -14,13 +18,23 @@ function sortTeam(team) {
             return b.Pts - a.Pts;
         }
     });
-}
+});
 
-sortTeam();
+// function sortTeam(team) {
+//     json_data.sort((a, b) => {
+//         if (a.Pts === b.Pts) {
+//             return b.NRR - a.NRR;
+//         } else {
+//             return b.Pts - a.Pts;
+//         }
+//     });
+// }
+
+// sortTeam();
 
 app.set('view engine', 'jade');
-app.set('views', path.join(__dirname, 'views'));
-app.use(express.static(path.join(__dirname, 'public')));
+app.set('views', path.join(__dirname, '/views'));
+app.use(express.static(path.join(__dirname, '/public')));
 
 
 const firstEmitter = new EventEmitter();
